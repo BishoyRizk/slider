@@ -1,0 +1,46 @@
+.photoholder{
+    position: relative;
+    
+}
+
+.textofthephoto{
+    position: absolute;
+    bottom:20px ;
+    width: 80%;
+    left: 10%;
+}
+
+#sliderdiv{
+    background-color: rgba(128, 128, 128, 0.552);
+    width: 100%;
+    height: 100%;
+    top:0 ;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.insiderdiv{
+    width: 80%;
+    height: 80%;
+    background-image: url("../images/p-1.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.markforclose{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+
+
